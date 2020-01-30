@@ -6,7 +6,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@quramy/x-core": "^0.0.0",
+    "@ocpi/apilayers": "^0.0.0",
     "@types/node": "^8.0.28"
   },
   "devDependencies": {

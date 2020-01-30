@@ -2,6 +2,6 @@
     "files": [],
     "references": [
         { "path": "ocpi-datalayers" },
-        { "path": "x-core" }
+        { "path": "ocpi-apilayers" }
     ]
 }

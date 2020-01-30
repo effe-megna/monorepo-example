@@ -5,6 +5,6 @@
     "outDir": "lib"
   },
   "references": [
-    { "path": "../x-core" }
+    { "path": "../ocpi-apilayers" }
   ]
 }
