@@ -4,5 +4,8 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
   }
 }

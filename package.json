@@ -21,5 +21,8 @@
     "nohoist": [
       "**/sls-*/**"
     ]
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.40"
   }
 }
