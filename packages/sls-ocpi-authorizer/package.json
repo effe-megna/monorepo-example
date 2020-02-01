@@ -1,0 +1,12 @@
+{
+  "name": "sls-ocpi-authorizer",
+  "version": "0.0.0",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ocpi/apilayers": "^0.0.0",
+    "pg-promise": "^10.4.0"
+  }
+}

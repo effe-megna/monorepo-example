@@ -4,7 +4,8 @@
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "test": "lerna run test",
-    "clean": "rimraf packages/**/lib"
+    "clean": "rimraf packages/**/lib",
+    "clean:all": "rimraf packages/**/lib && node_modules packages/**/node_modules"
   },
   "devDependencies": {
     "@types/node": "^13.5.2",
@@ -12,7 +13,12 @@
     "rimraf": "^3.0.1",
     "typescript": "^3.7.5"
   },
-  "workspaces": [
-    "packages/*"
-  ]
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/sls-*/**"
+    ]
+  }
 }
