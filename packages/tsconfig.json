@@ -1,5 +1,9 @@
 {
-    "files": [],
+    "compilerOptions": {
+        "strict": true,
+        "noImplicitAny": true,
+        "preserveSymlinks": false
+    },
     "references": [
         { "path": "ocpi-datalayers" },
         { "path": "ocpi-apilayers" }
