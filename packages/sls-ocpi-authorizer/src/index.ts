@@ -1,7 +1,6 @@
 import { awesomeFn }  from "@ocpi/apilayers"
 import pgp from "pg-promise" 
-import { ALBCallback } from "aws-lambda"
-import { getConnection } from "typeorm"
+import * as O from "fp-ts/lib/Option"
 
 awesomeFn()
 console.log(
@@ -9,7 +8,9 @@ console.log(
     capSQL: true
   })
 )
+
 console.log(
-  getConnection("123")
+  O.option.of("333")
 )
+
 console.log("sls-ocpi-authorizer")

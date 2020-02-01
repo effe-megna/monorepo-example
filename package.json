@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@types/aws-lambda": "^8.10.40",
+    "fp-ts": "^2.4.3",
     "typeorm": "^0.2.22"
   }
 }
